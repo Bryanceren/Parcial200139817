@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+.divx{
+  background-color: #ffe7c2;
+  margin: 0;
+  padding: 10px;
+}
+a {
+  color: #00B7FF;
+}
+.form{
+  background-color: #e3e8ed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.form input{
+  margin:40px;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 10px;
+}
+#botoncito{
+  background-color: #0c944f;
+  color: #fff;
+}
+table td{
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  margin:40px;
+  width: 25%;
+}
+table th{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+  padding: 15px;
+  margin:40px;
+  width: 25%;
+  background-color: #b0e6f7;
+}
+table{
+  width: 100%;
+  font-size: 1.4em;
+  color:#555e69;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}

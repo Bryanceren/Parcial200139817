@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .divx
+    i(class="fas fa-cat")
+    h1 Administrador de Carrera universitaria 
+  .errors
+  .form
+    form(action="/api/Carrera-universitaria",method="post" name="postForm")
+      input#nombre(type="text" name="nombre" placeholder="nombre")
+      input#facultad(type="text" name="facultad" placeholder="facultad")
+      input#numero(type="text" name="numero" placeholder="numero")
+      input#botoncito(type="submit",value="Enviar")
+  table
+    thead 
+      th id
+      th nombre
+      th facultad
+      th numeromaterias
+      th -
+    tbody.posts
+  script(src="/javascripts/main.js")
